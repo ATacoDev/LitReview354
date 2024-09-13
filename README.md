@@ -17,7 +17,7 @@ LLM Used: ChatGPT
 AI in video games dates back to the 50s with simple AI in games such as `Tennis for Two`, `Spacewar!`, and `The Adventures of Zork.` These games all exhibited some form of simple AI in which AI opponents or characters would play checkers against you, follow pre-defined patterns and rules, or just be there to proved appropriate responses and help integrate the player into the world that the game developer was trying to create.
 
 ### 80s - 90s
-Later down the line in the 80s however, these AI began evolving into more complex and dynamic forms. This includes the all popular `Pac-Man` in which the AI has Pac-Man wandering the level in attempt to attack the player. This can also be seen in games like `Starcraft` where the AI opponents have to actually makes moves to outmaneuver the player, with difficulties ranging all the way from easy to extremely difficult. This is also proves in `Chess`! Sure you may think you're good at chess, but you don't always have the best possibly move at every point in the game like chess AI does.
+Later down the line in the 80s however, these AI began evolving into more complex and dynamic forms. This includes the all-popular `Pac-Man` in which the AI has Pac-Man wandering the level in an attempt to attack the player. This can also be seen in games like `Starcraft` where the AI opponents have to actually makes moves to outmaneuver the player, with difficulties ranging all the way from easy to extremely difficult. This is also proves in `Chess`! Sure you may think you're good at chess, but you don't always have the best possibly move at every point in the game like chess AI does.
 
 ### Current Day
 Now, there is WAY more modern AI with NPCs being able to have full-on conversations with the player; some games even involve deep learning in order to truly immerse the player into the video game.
@@ -40,7 +40,7 @@ ChatGPT essentially told me that the context of prototyping and final implementa
 #### C++
 - Much faster than Python, but due to it being a much more complex language, it's hard to experiment with AI with this language
 - AI experimentation in video games will often be written in Python first and then translated to C++ later
-  - Often however this process can take a long time
+  - Often however, this process can take a long time
 - Preferred for final implementation
 
 The choice between Python and C++ often comes down to the stage of development and the specific needs of the project. Many game development teams find success using both languages: Python for early development and experimentation and C++ for final, performance-oriented implementation.
