@@ -75,7 +75,7 @@ After asking some questions to chatGPT like the one above, it concluded that:
 visual scripting languages like Unreal Blueprints offer a more accessible and intuitive way to develop AI, especially for rapid prototyping and collaborative work. However, they may face limitations in performance, scalability, and flexibility compared to traditional text-based languages. The choice between the two often depends on the specific needs of the project and the skill sets of the team involved. Specifically,
 
 **Advantages**
-- Visual scripting languages provide a firendlier user interface so it's better especially for those who may be less experienced with coding
+- Visual scripting languages provide a friendlier user interface so it's better especially for those who may be less experienced with coding
     - These visual scripting languages also give back immediate feedback unlike some traditional text-based programming languages. They are "used as alternatives to text programming to make coding easier. Visual programming languages provide a structure and a guidance that does not exist in text programming, which should make them easier to code with." ([Ugla, Alexander. Improving the User Experience of Visual Scripting Languages](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1621764&dswid=-7671))
     - Given that these visual scripting languages are more friendly to the eye, complex AI behaviors can be visualized more clearly, furthermore helping with the developers understanding of whatever they are trying to accomplish
  - These can be often integrated with game engines which is well, incredibly beneficial especially if you are trying to design AI or AI logic for a piece of a video game
@@ -88,17 +88,16 @@ visual scripting languages like Unreal Blueprints offer a more accessible and in
 
 ### Example with Unreal Engine and Blueprints
 
-- Fortnite was made with Unreal Engine and its blueprints, allowing develoeprs to quickly tweak AI to test different strategies and itneraction, which is especially crucial with how fast of development is needed for that title
+- Fortnite was made with Unreal Engine and its blueprints, allowing developers to quickly tweak AI to test different strategies and interaction, which is especially crucial with how fast of development is needed for that title
     - HOWEVER, since Fortnite grows more and more complex, and constant needing new AI logic/tools, some of it will instead need to be written in python or C++ first, before getting it settled into the visual programming language
 
 `In summary, depending on the type and complexity of the AI you are developing for your game, at times it may just be easier to develop it in some form of visual language. However, if you need more complex logic, developing it first using both Python and C++ may be smarter, and then you can further integrate that into some form of visual programming model.`
 
 
-### What impact does the programming language community and ecosystem have on the development of AI tools and libraries for game development?
-
-
 ## Summary
+The choice of programming language in AI development for games has significant effects on performance, development speed, and integration capabilities. Python, Known for its  ease of use, is often favored for rapid prototyping. Its straightforward ecosystem allows developers to quickly test and iterate on AI concepts. However, Python's slower execution speed can be a limiting factor for final implementations, especially when performance is critical. As a result, many developers transition to C++ for the final product. C++ excels in performance and efficiency, making it a preferred choice for production-ready AI systems where execution speed and resource management are paramount.
 
+Visual scripting languages, such as Unreal Blueprints, provide an intuitive, node-based interface that facilitates quick adjustments and collaboration, especially with non-programmers. This can be particularly useful in the early stages of development or in teams where diverse skill sets are involved. Nevertheless, visual scripting languages can introduce overhead and face scalability challenges when dealing with complex AI systems. As a project scales, developers often find it necessary to switch to text-based languages to optimize and refine their implementations. Overall, the programming language you pick has a big determination on how you decide to go about developing and producing AI material. This is especially true in video games, where the industry moves fast, and you're always finding yourself in a situation to find new and interesting strategies to interest your customers.
 
 
 
